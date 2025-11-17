@@ -14,8 +14,8 @@ extern "C" {
 // ICMP data size : 56 byte
 #define ICMP_DATA_SIZE 56
 
-#define SUCCESS 0
-#define FAILURE -1
+#define SUCCESS 1
+#define FAILURE 0
 
 // ICMP header : 8 byte
 struct icmp_header {

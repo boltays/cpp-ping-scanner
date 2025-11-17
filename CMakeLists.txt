@@ -17,6 +17,7 @@ endif()
 add_executable(ping_scanner 
 	src/main.cpp
 	src/icmp_protocol.c 
+	src/raw_socket.c
 )
 
 target_include_directories(ping_scanner PRIVATE include)
